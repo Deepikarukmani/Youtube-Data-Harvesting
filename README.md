@@ -4,12 +4,12 @@ The purpose of this project is to create an Streamlit app that pulls data about 
 
 
 ## Tools and libraries used for this project :
-1. **Python** -- Programming Language
-2. **pymongo** -- Python Framework that helps in connecting with MongoDB
-3. **pandas** -- Python Library for Data Visualization
-4. **streamlit** -- Python framework to rapidly build and share beautiful machine learning and data science web apps
-5. **google-api-python-client** -- Python Library that offers simple, flexible access to many Google APIs.
-6. **mysql-connector-python** -- Python Library that enables Python programs to access MySQL databases
+1. **Python** - Programming Language
+2. **pymongo** - Python Framework that helps in connecting with MongoDB
+3. **pandas** - Python Library for Data Visualization
+4. **streamlit** - Python framework to rapidly build and share beautiful machine learning and data science web apps
+5. **google-api-python-client** - Python Library that offers simple, flexible access to many Google APIs.
+6. **mysql-connector-python** - Python Library that enables Python programs to access MySQL databases
 
 
 ## Project Workflow
