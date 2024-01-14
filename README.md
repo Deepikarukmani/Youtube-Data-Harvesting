@@ -13,21 +13,21 @@ The purpose of this project is to create an Streamlit app that pulls data about 
 
 
 ## Project Workflow
-1. Enter a YouTube channel ID in the input field and click the "Extract Data From API" button.
+1. Enter a YouTube channel ID in the input field and click the "Retrieving data" button.
    
-2. The app will retrieve the channel details like  Channel_id, Channel_name Playlist_id, Subscribers, Views, Total_videos, Description and so on.
+3. The app will retrieve the channel details like  Channel_id, Channel_name Playlist_id, Subscribers, Views, Total_videos, Description and so on.
 
-3. Now to upload the data to MongoDB Atlas Database Cluster, click the "Upload data to MongoDB Atlas" button. The app will show a success message after the data is been uploaded successfully.
+4. Now to upload the data to MongoDB Atlas Database Cluster, click the "Enter data". The app will show a success message after the data is been uploaded successfully.
    
-4. After the data gets uploded to MongoDB Atlas, now from the sidebar select the Migrate tab.  Now select the channel whose data you want to migrate to the SQL database from the dropdown menu.
+5. After the data gets uploded to MongoDB Atlas, now from the top to select the Migrate tab.  Now select the channel whose data you want to migrate to the SQL database from the dropdown menu.
    
-5. Then click the "Migrate Data to SQL" button to migrate the selected channel data to SQL Database.
+6. Then click the "Migrate Data" button to migrate the selected channel data to SQL Database.
 
-6. The app will display a success message once the data has been migrated.
+7. The app will display a success message once the data has been migrated.
    
-7. Now from the sidebar select the View tab and browse through the dropdown menu and select the required statement.
+8. Now from the top select the "Query Data" and browse through the dropdown menu and select the Query questions.
     
-8. According to the selected statement the data will be queried from the SQL Database  and will be displayed here on the screen in the streamlit application.
+9. According to the selected statement the data will be queried from the SQL Database  and will be displayed here on the screen in the streamlit application.
 
 ## Conclusion
 This project aims to develop a user-friendly Streamlit application that utilizes the Google API to extract information on a YouTube channel, stores it in a MongoDB database, migrates it to a SQL data warehouse, and enables users to search for channel details and join tables to view data in the Streamlit app.
